@@ -38,8 +38,8 @@ CREATE TABLE `queue` (
 --
 
 INSERT INTO `queue` (`id`, `steamid`, `priority`) VALUES
-(8, 'STEAM_0:0:52334785', 99),
-(13, 'STEAM_0:0:509345899', 99);
+(1, 'STEAM_0:0:52334785', 99),
+(2, 'STEAM_0:0:509345899', 99);
 
 --
 -- Indexes for dumped tables
@@ -59,7 +59,7 @@ ALTER TABLE `queue`
 -- AUTO_INCREMENT for table `queue`
 --
 ALTER TABLE `queue`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
